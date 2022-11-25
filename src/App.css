@@ -1,3 +1,30 @@
+/* @font-face {
+  font-family: 'GmarketSansMedium';
+  src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+  font-weight: 300;
+  font-style: normal;
+}
+
+*{
+  font-family: 'GmarketSansMedium';
+} */
+
+.ajax {
+  background-color: #282c34;
+  color: #c3c3c3;
+}
+
+.brand {
+  font-weight: 600;
+}
+
+.main-bg {
+  height: 300px;
+  background-image: url('./bg.jpg');
+  background-size: auto;
+  background-position: center;
+}
+
 .App {
   text-align: center;
 }
@@ -26,6 +53,16 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.link {
+  padding: 5px;
+  color: white;
+  text-decoration-line: none;
+}
+
+.link:hover {
+  color: white;
 }
 
 @keyframes App-logo-spin {
